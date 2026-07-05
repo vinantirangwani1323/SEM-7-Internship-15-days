@@ -46,3 +46,59 @@ print(i > 5 and i < 10)
 list = ['apple', 'mango', 'banana']
 print('apple' not in list)
 print('kiwi'  in list)
+
+day = int(input("Enter the value: "))
+
+if day == 1:
+ print("Monday")
+elif day == 2:
+ print("Tueday")
+elif day == 3:
+ print("WEday")
+elif day == 4:
+ print("Thrusday")
+elif day == 5:
+ print("Friday")
+elif day == 6:
+ print("Satday")
+elif day == 7:
+ print("Sunday")
+
+age = 25
+has_license = True
+if age > 18:
+ if has_license:
+  print("You can drive ")
+ else:
+  print("Get your license first")
+else:
+ print("You are not eligible also")
+
+
+n = 33
+o = 200
+
+if o > n:
+  pass
+
+
+p = 1
+while p < 6:
+ print(i)
+ if p == 3:
+  break
+ p += 1
+
+ q = 1
+while q < 6:
+ q += 1
+ if q == 3:
+  continue
+ print(i)
+
+frs = ['apple', 'mango', 'pie']
+for r in frs:  
+ print(r)
+ if r == 'mango':
+  break
+ 
